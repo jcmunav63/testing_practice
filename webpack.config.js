@@ -14,8 +14,8 @@ module.exports = {
     }),
   ],
   output: {
-    path: path.resolve(__dirname, "dist"),
-    //filename: 'main.js',
+    path: path.resolve(__dirname, 'dist'),
+    // filename: 'main.js',
     filename: '[name].js',
     // chunkFilename: (pathData) => {
     //  return pathData.chunk.name === 'main' ? '[name].js' : '[name]/[name].js';

@@ -1,11 +1,9 @@
 // import { add, subtract, divide, multiply } from "./calculator";
-const Calculator = require("./calculator");
+const Calculator = require('./calculator');
 
-
-
-test("Calculates a sum of two numbers", () => {
+test('Calculates a sum of two numbers', () => {
   // Arrange
-  Calculator1 = new Calculator;
+  Calculator1 = new Calculator();
   const first = 10;
   const second = 16;
 
@@ -16,9 +14,9 @@ test("Calculates a sum of two numbers", () => {
   expect(result).toBe(26);
 });
 
-test("Calculates a subtraction of two numbers", () => {
+test('Calculates a subtraction of two numbers', () => {
   // Arrange
-  Calculator2 = new Calculator;
+  Calculator2 = new Calculator();
   const first = 20;
   const second = 12;
 
@@ -29,9 +27,9 @@ test("Calculates a subtraction of two numbers", () => {
   expect(result).toBe(8);
 });
 
-test("Multiplies two numbers", () => {
+test('Multiplies two numbers', () => {
   // Arrange
-  Calculator3 = new Calculator;
+  Calculator3 = new Calculator();
   const first = 25;
   const second = 12;
 
@@ -42,9 +40,9 @@ test("Multiplies two numbers", () => {
   expect(result).toBe(300);
 });
 
-test("Divides two numbers", () => {
+test('Divides two numbers', () => {
   // Arrange
-  Calculator4 = new Calculator;
+  Calculator4 = new Calculator();
   const first = 25;
   const second = 5;
 

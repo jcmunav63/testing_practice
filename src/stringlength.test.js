@@ -1,8 +1,8 @@
-const stringLength = require("./stringlength");
+const stringLength = require('./stringlength');
 
 test("Determines a string's length", () => {
   // Arrange
-  const inputString = "Disneyland";
+  const inputString = 'Disneyland';
 
   // Act
   const result = stringLength(inputString);

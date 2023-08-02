@@ -1,12 +1,12 @@
-const reverseString = require("./reversestring");
+const reverseString = require('./reversestring');
 
-test("Reverses a string", () => {
+test('Reverses a string', () => {
   // Arrange
-  const inputString = "Argentina";
+  const inputString = 'Argentina';
 
   // Act
   const result = reverseString(inputString);
 
   // Assert
-  expect(result).toBe("anitnegrA");
+  expect(result).toBe('anitnegrA');
 });

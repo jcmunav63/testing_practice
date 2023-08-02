@@ -1,8 +1,8 @@
-const capitalizeString = require("./capitalizestring");
+const capitalizeString = require('./capitalizestring');
 
-test("Capitalizes first letter of a string", () => {
+test('Capitalizes first letter of a string', () => {
   // Arrange
-  const inputString = "italia";
+  const inputString = 'italia';
 
   // Act
   const result = capitalizeString(inputString);
